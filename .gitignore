@@ -1,0 +1,10 @@
+.freebuff/
+hts-cache/
+*.db
+*.db-shm
+*.db-wal
+*.log
+.env
+.env.*
+node_modules/
+.DS_Store
