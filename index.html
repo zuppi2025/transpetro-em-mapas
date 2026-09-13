@@ -216,7 +216,7 @@
         setPlanList('Plano Essencial', essential);
         setPlanList('Plano Completo', special);
         updateBonusCards();
-        document.querySelectorAll('a[href="https://pay.wiapy.com/3hQLTwvPTSNP"]').forEach((a) => a.href = 'https://pay.wiapy.com/7JwuqLYYeMYr');
+        document.querySelectorAll('a[href="https://pay.wiapy.com/aPw7OqoqP7-c"]').forEach((a) => a.href = 'https://pay.wiapy.com/aPw7OqoqP7-c');
         [...document.querySelectorAll('div')].filter((el) => el.textContent.trim() === 'A biblioteca visual').forEach((el) => { el.childNodes[el.childNodes.length - 1].nodeValue = ' A biblioteca visual para a Transpetro'; });
         [...document.querySelectorAll('p')].filter((el) => el.textContent.trim() === 'Plano Completo').forEach((label) => {
           const plan = label.closest('.rounded-2xl');
@@ -265,7 +265,7 @@
               [...cta.childNodes].forEach((node) => {
                 if (node.nodeType === Node.TEXT_NODE && node.nodeValue.includes('Quero o Plano Especial')) node.nodeValue = 'Quero o Plano Completo';
               });
-              if (cta.tagName === 'A') cta.href = 'https://pay.wiapy.com/3hQLTwvPTSNP';
+              if (cta.tagName === 'A') cta.href = 'https://pay.wiapy.com/aPw7OqoqP7-c';
             }
           }
         }
@@ -1105,6 +1105,8 @@
 </body>
 
 </html>
+
+
 
 
 
